@@ -205,20 +205,7 @@ func main() {
 
 	printInput(r)*/
 	payloads := map[string]string{
-		"cdm_cloud_provider": "데이터커맨드",
-		"cdm_cloud_customer": "현대자동차",
-		"cdm_dr_issue_dt": "1629642231",
-		"cdm_dr_expiry_dt": "1640960790",
-		"cdm_dr_limits_platform": "unknown",
-		"cdm_dr_limits_storage": "lvm,ceph",
-		"cdm_dr_limits_cluster": "2",
-		"cdm_dr_limits_tenant": "3",
-		"cdm_dr_limits_instance": "100",
-		"cdm_dr_limits_volume": "500",
-		"cdm_r_issue_dt": "1629642231",
-		"cdm_r_expiry_dt": "1640960790",
-		"cdm_r_limits_agent": "500",
-		"cdm_r_limits_group": "300",
+
 	}
 
 	l := newLicense("EBC64D56C-0A91-90DB-9AA2-297C9F24413")
